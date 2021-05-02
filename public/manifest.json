@@ -31,12 +31,12 @@
         "type": "image/png"
       }
     ],
-    "name": "Newsy app",
-    "short_name": "Newsy",
+    "name": "Budget Tracker",
+    "short_name": "Budget",
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "/",
-    "description": "An application that allows you to view different news articles and save your favorites.",
+    "description": "An application that allows you to track your budget to keep track of money going in and out",
     "background_color": "#01579b",
     "theme_color": "#ffffff",
     "theme-color": "#ffffff"
