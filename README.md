@@ -31,4 +31,4 @@ https://github.com/Burch531/Budget_Tracker
 (https://github.com/Burch531)
 
 
-![Screenshot](/assets/Budget.PNG)
+![Screenshot](./Assets/Budget.PNG)
