@@ -23,11 +23,12 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
     useFindAndModify: false
   
   }, () => 
-  console.log("Connected to DB")
+  console.log("Connected to DB"),
+  app.use(require("./routes/api"))
   );
 
 // routes
-app.use(require("./routes/api.js"));
+// app.use(require("./routes/api"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
